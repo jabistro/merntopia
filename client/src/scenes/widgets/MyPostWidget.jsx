@@ -157,17 +157,19 @@ const MyPostWidget = ({ picturePath }) => {
         )}
 
         <Button
-            disabled={!post}
-            onClick={handlePost}
-            sx={{
-                color: palette.background.alt,
-                backgroundColor: palette.primary.main,
-                borderRadius: "3rem"
-            }}
+          disabled={!post}
+          onClick={handlePost}
+          sx={{
+            color: palette.background.alt,
+            backgroundColor: palette.primary.main,
+            borderRadius: "3rem",
+          }}
         >
-            POST
+          POST
         </Button>
       </FlexBetween>
     </WidgetWrapper>
   );
 };
+
+export default MyPostWidget;
