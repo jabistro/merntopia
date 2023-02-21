@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Sociopedia
+          Merntopia
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
