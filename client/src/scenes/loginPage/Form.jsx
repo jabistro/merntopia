@@ -86,7 +86,6 @@ const Form = () => {
     });
     const loggedIn = await loggedInResponse.json();
     onSubmitProps.resetForm();
-
     if (loggedIn) {
       dispatch(
         setLogin({
@@ -99,7 +98,7 @@ const Form = () => {
   };
 
   const handleFormSubmit = async (values, onSubmitProps) => {
-    if (isLogin) await loginSchema(values, onSubmitProps);
+    if (isLogin) await login(values, onSubmitProps);
     if (isRegister) await register(values, onSubmitProps);
   };
 
@@ -209,6 +208,7 @@ const Form = () => {
                 </Box>
               </>
             )}
+
             <TextField
               label="Email"
               onBlur={handleBlur}

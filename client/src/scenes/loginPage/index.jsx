@@ -13,9 +13,10 @@ const LoginPage = () => {
         textAlign="center"
       >
         <Typography fontWeight="bold" fontSize="32px" color="primary">
-          Merntopia
+          Sociopedia
         </Typography>
       </Box>
+
       <Box
         width={isNonMobileScreens ? "50%" : "93%"}
         p="2rem"
@@ -24,7 +25,7 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to Merntopia, the Social Media for MERN enthusiats!
+          Welcome to Merntopia, the Social Media for MERN enthusiasts!
         </Typography>
         <Form />
       </Box>

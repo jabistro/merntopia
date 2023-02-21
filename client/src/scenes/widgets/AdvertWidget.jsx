@@ -21,7 +21,7 @@ const AdvertWidget = () => {
         height="auto"
         alt="advert"
         src="http://localhost:3001/assets/info4.jpeg"
-        style={{ borderRadius: "0.75rem", margin: "0" }}
+        style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
         <Typography color={main}>MikaCosmetics</Typography>

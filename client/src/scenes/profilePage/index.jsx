@@ -19,7 +19,7 @@ const ProfilePage = () => {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
-    const data = response.json();
+    const data = await response.json();
     setUser(data);
   };
 
