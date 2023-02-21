@@ -6,7 +6,7 @@ Merntopia is a social media platform for MERN stack (MongoDB, Express, React, No
 
 Currently a work in progress.
 
-#Current Features:
+## Current Features:
   - Create a new user in the login form
   - Sign in
   - Read all posts
@@ -19,7 +19,7 @@ Currently a work in progress.
   - Read comments on post
   - Toggle between light and dark mode
   
-#Features to come:
+## Features to come:
   - Update user
   - Delete user
   - Update post
