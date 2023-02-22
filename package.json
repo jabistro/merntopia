@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "npm run build --prefix backend"
+    "build": "npm run build --prefix server"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
