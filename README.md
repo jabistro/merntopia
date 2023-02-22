@@ -18,7 +18,7 @@ Currently a work in progress.
   - Like/unlike a post
   - Read comments on post
   - Toggle between light and dark mode
-  
+
 ## Features to come:
   - Update user
   - Delete user
@@ -29,3 +29,6 @@ Currently a work in progress.
   - Delete comment
   - Searchbar
   - Direct messages between users
+
+
+<!-- test -->
